@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">UTS_48162_ArnoldusYitzhakPetraManoppo</string>
+    <string name="profilNama">Arnoldus Yitzhak Petra Manoppo</string>
+    <string name="profilNim">00000048162</string>
+    <string name="profilKelas">IF570-DL</string>
+    <string name="namaApp">Short Video Player And Library</string>
+    <string name="dialogTanya">Are you sure you want to delete the current item? Once deleted it cannot be recovered</string>
+    <string name="dialogYes">Yes, Confirm deletion</string>
+    <string name="dialogNo">No, stay</string>
+    <string name="referensi">YOUTUBE.COM</string>
+    <string name="textReferensi">REFERENSI:</string>
+    <string name="resourceVideo">Resource Video:</string>
+    <string name="vidDesc">Video Description:</string>
+
+
+
+
+
+
+</resources>

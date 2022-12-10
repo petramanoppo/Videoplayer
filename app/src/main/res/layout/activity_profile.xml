@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Profile">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginTop="40dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:src="@drawable/ryangosling"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/namaProfile"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/profilNama"
+            android:textSize="17dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/nim"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/profilNim"
+            android:textSize="17dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/kelas"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/profilKelas"
+            android:textSize="17dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/textReferensi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/textReferensi"
+            android:textSize="17dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/referensi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/referensi"
+            android:textSize="17dp"
+            android:textColor="@color/purple_700" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

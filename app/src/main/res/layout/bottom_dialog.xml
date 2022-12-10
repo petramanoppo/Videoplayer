@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textConfirmation"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/dialogTanya"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/confirmDeletion"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="12dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            app:srcCompat="@drawable/ic_baseline_done_24"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="12dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/dialogYes"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/cancelDeletion"
+        android:layout_height="50dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="12dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            app:srcCompat="@drawable/ic_baseline_cancel_24"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginStart="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/dialogNo"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

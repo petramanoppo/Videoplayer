@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="id.ac.umn.uts_00000048162_arnoldusyitzhakpetramanoppo">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UTS_48162_ArnoldusYitzhakPetraManoppo"
+        tools:targetApi="31">
+        <activity
+            android:name="id.ac.umn.uts_00000048162_arnoldusyitzhakpetramanoppo.VideoPlayer"
+            android:exported="false"
+            android:parentActivityName="id.ac.umn.uts_00000048162_arnoldusyitzhakpetramanoppo.Library"/>
+        <activity
+            android:name="id.ac.umn.uts_00000048162_arnoldusyitzhakpetramanoppo.Library"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:parentActivityName="id.ac.umn.uts_00000048162_arnoldusyitzhakpetramanoppo.MainActivity" />
+        <activity
+            android:name="id.ac.umn.uts_00000048162_arnoldusyitzhakpetramanoppo.Profile"
+            android:exported="false"
+            android:parentActivityName="id.ac.umn.uts_00000048162_arnoldusyitzhakpetramanoppo.MainActivity" />
+        <activity
+            android:name="id.ac.umn.uts_00000048162_arnoldusyitzhakpetramanoppo.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
